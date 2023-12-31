@@ -1,2 +1,0 @@
-import "./cargarcategorias";
-import "./eventoCategorias";
