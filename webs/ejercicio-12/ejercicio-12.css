@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+.encabezado{
+     height: 300px;
+     width: 100%;
+     background-color: lightgray;
+     display: flex;
+}
+.encabezado img{
+    height: 300px;
+    width: 1200px;
+    margin-right: 0;
+}
+.redes i{
+    height: 30px;
+    width: 30px;
+    padding-top:15px;
+    border:none;
+    background-color: none;
+    color:red;
+}
+.redes{
+    background: none;
+    border: none;
+}
+ul, li{
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.general-dos{
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+}
+.seccion{
+    margin-left: 100px;
+    height: 300;
+    width: 300px;
+    background-color: none;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;color: rgb(12, 133, 173);
+}
+p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#email{
+    width: 250px;
+    margin-left: 20px;
+}
+#imagen-2{
+    height: 300px;
+    width: 800px;
+}

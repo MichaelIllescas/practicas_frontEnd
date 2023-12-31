@@ -1,0 +1,877 @@
+body{
+    box-sizing: border-box;
+    /* background-image:url(/inicio/fondo.webp); background-repeat: no-repeat;background-size: cover ; */
+    color: rgb(61, 60, 60);
+    margin: 0 auto;
+    max-width: 1800px;
+    min-width: 400px;
+    overflow-x: hidden;
+    z-index: 1;
+    /* background-color: red; */
+  
+    
+}
+
+.carousel{
+    width: 40%;
+    height:auto;
+    margin: 20px auto;    
+    box-shadow: 0 10px 10px #111;
+}
+.carousel img{
+    width: auto;
+    height: 500px;
+    
+}
+
+
+.cabecera{
+    display: flex;
+    margin: 0 auto;
+    /* background-color: rgb(205, 178, 178); */
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid brown;
+    box-shadow: 0px 5px 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+    
+
+
+}
+.logo{
+    width: 10%;
+    height: 90%;
+    padding: auto;
+    /* overflow: hidden; */
+    /* background-color: rgb(205, 178, 178); */
+    text-align: center;
+    
+   
+}
+.escudo{
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px #111;
+}
+.contenedor-nav{
+    /* background-color: red; */
+    height: 70px;
+    box-shadow: none;
+    width: 85%;
+    position: relative;
+    top: 0;
+    margin-left:50px;
+    padding: 0;
+    
+    
+    
+    
+}
+.navegacion{
+    margin: 0 auto;
+    display: flex;
+    /* background-color: rgb(205, 178, 178); */
+    width:100%;
+    height: 100%;
+}
+.menu{
+    margin: 0 auto;
+    display: flex;
+    /* background-color: rgb(205, 178, 178); */
+    margin-left: 1px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    justify-content: left;
+    /* overflow: hidden; */
+    
+}
+.item-menu{
+    height: 100%;
+    width: 15%;
+    /* float: left; */
+    /* border: 1px solid black; */
+    text-align: center;
+    list-style: none;
+    line-height:70px;
+    box-shadow: inset 0 0 10px 00px #111;
+    border-radius: 10px;
+    padding: 1px;
+    
+
+}
+
+.links-menu{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    width: 5%;
+
+}
+#icono-menu{
+    display: none;
+}
+.icono-cerrar-desactivo{
+    position :absolute;
+    bottom:5px;
+    left: 15px;
+    /* display: none; */
+    opacity: 0;
+}
+
+.icono-cerrar-desactivo:hover{
+    color:#e7650e;
+}
+.links-menu:hover{
+    color: #e7650e;
+    transition: 0,85s;
+    
+}
+.redes{
+    display: block;
+    float: right;
+    /* background-color: rgb(205, 178, 178); */
+    height: inherit;
+    width: 20%;
+    line-height: 70px;
+    /* box-shadow: inset 0 0 10px 00px #111; */
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.redes-item{
+
+    color: rgb(14, 14, 14);
+    margin-right: 20px;
+    font-size: 60px;
+    line-height: 70px;
+}
+.redes-item:hover{
+    transition: 0,75s;
+    color:#e7650e;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    min-height: 400px;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: #111 2px solid;
+    box-shadow:  0 0 2px 1px  #111;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.Illescas{
+    border-radius: 100%;
+    height: 200px;
+    margin-left: 10px;
+    width: 80%;
+    margin-top: 15px;
+    border:2px solid #757391;
+    box-shadow:  0 0 10px 00px #111;
+    flex-wrap: wrap;
+}
+.title{
+    /* margin: 60px auto; */
+    text-align: center;
+    color: rgb(14, 14, 14);
+    margin-bottom: 0px;
+    /* background-color: blueviolet; */
+    height: auto;
+    width: 35%;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+}
+
+.caja2{
+    /* background-color: #917373; */
+    height: auto;
+    width: 20%;
+}
+.indice{
+    font-size:25px;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.enlace{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+    
+}
+.enlace:hover{
+    color: #e7650e;
+    transition: 0,85s;
+}
+
+.contenedor-2{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: #111 2px solid;
+    box-shadow:  0 0 10px 00px #111;
+    min-height: 550px;
+    align-items: center;
+}
+.dojo-kun{
+    width: 70%;
+    /* flex-wrap: wrap; */
+    
+}
+.title2{
+    margin: 15px auto;
+    text-align: center;
+    width: 30%;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: #111 3px double ;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+    
+}
+.parrafo{
+    flex-direction:column ;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 10px;
+    /* flex-wrap: wrap; */
+    color: rgb(14, 14, 14);
+}
+.mensaje{
+   width: 30%;
+   /* background-color: orange; */
+   text-align: center;
+   flex-wrap: wrap;
+   color: rgb(14, 14, 14);
+}
+.imagen-inscrpcion{
+   height: 300px;
+   width: 70%;
+   border-radius: 10%;
+   flex-wrap: wrap;
+}
+.contacto{
+    text-decoration: none;
+    color: inherit;
+    box-shadow:inset 0 0 10px 00px #111;
+    border-radius: 20px;
+    padding: 5px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+}
+.contacto:hover{
+    color:#e7650e;
+}
+
+
+.beneficios{
+    /* margin-top:0px; */
+    display: flex;
+    /* background-color: red; */
+    width: 100%; 
+    margin-bottom: 10px;
+    border-bottom: #111 2px solid;
+    box-shadow:  0 0 10px 00px #111;
+    color: rgb(14, 14, 14);
+    min-height: 650px;
+    align-items: center;
+        
+  
+
+}
+.imagen-2{
+    width: 80%;
+    margin-left: 50px;
+    border-radius: 20%;
+    margin-top: 40px;
+    /* flex-wrap: wrap; */
+}
+.articulo{
+    width: 70%;
+    margin-top: 20px;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+}
+.title-2{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-bottom: #111 3px double ;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+}
+.caja-1 .parrafo-beneficios{
+    margin: 20px 30px 20px 5px;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+
+
+}
+.title-3{
+    
+    /* background-color: red; */
+    margin-left: 150px;    
+    padding-top: 20px;
+    border-bottom: #111 3px double ;
+    display: inline-block;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+}
+
+
+.beneficios-fisicos, .beneficios-mentales, .beneficios-sociales{
+   margin-left: 20px;
+   flex-wrap: wrap;
+   color: rgb(14, 14, 14);
+}
+span{
+    font-weight: bold;
+}
+.parrafo-beneficios{
+    margin-left: 50px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+}
+.ventajas{
+    padding-bottom:  5px;
+    border-bottom: #111 2px solid;
+    box-shadow:  0 0 10px 00px #111;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+    
+}
+.cinturones-general{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    border-bottom: #111 2px solid;
+    box-shadow:  0 0 10px 00px #111;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    /* flex-wrap: wrap; */
+    color: rgb(14, 14, 14);
+    min-height: 1000px;
+    
+}
+.titulo-foto{
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-cinturones{
+    /* background-color: #fff; */
+    border-bottom: #111 5px double;
+    margin-top: 100px;
+    padding-top: 0;
+    height: 55px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+
+}
+.cinto{
+    width: 30%;
+    border-radius: 30%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    border: 2px #111 solid;
+
+}
+
+.title-cinturones2{
+    text-align: center;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+}
+.parrafo{
+    text-align: justify;
+    margin: 20px 30px;
+    flex-wrap: wrap;
+    color: rgb(14, 14, 14);
+
+}
+.lista-colores{
+    margin-left: 20%;
+    color: rgb(14, 14, 14);
+    
+}
+.cinturones{
+    margin-bottom: 20px;
+}
+.galeria{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    border-bottom: #111 5px double;
+    display: inline-block;
+    margin-left: 35%;
+    color: rgb(14, 14, 14);
+}
+
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.galeria-imagenes-general{
+
+    padding-top: 0;
+    height: auto;
+    padding-bottom: 90px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+    border-bottom: #111 2px solid;
+    box-shadow:  0 0 10px 00px #111;
+    
+}
+.galeria-imagenes{
+    height: auto;
+    /* background-color: blue; */
+    width: 95%;
+    /* height: auto; */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 133px);
+    grid-auto-rows: 200px;
+    justify-content: center;
+    gap:1rem;
+    
+}
+
+.item-galeria{
+
+    clip-path: polygon(50% 0%, 100% 25% , 100% 75% , 50% 100% , 0% 75%, 0% 25%);
+    grid-column: span 2 ;
+    height: 283px;
+    transition:0.5s filter;
+}
+.item-galeria:hover{
+    filter: brightness(0.6);
+}
+.item-galeria:first-of-type{
+    grid-column: 2 / span 2;
+
+}
+.item-galeria:nth-child(6){
+    grid-column: 2 / span 2;
+ 
+}
+.item-galeria:nth-child(8){
+ visibility: hidden;
+ 
+}
+
+.ir-arriba, .reloj{
+  
+    position: fixed;
+    bottom: 0;
+    right: 0;
+   color: #fff;
+    background-color: #af8f90;
+     border-radius: 10%;
+     border: #fff;
+     box-shadow: 1px 1px 15px 2px rgb(235, 225, 225) inset;
+ 
+     height: 35px;
+    
+}
+.reloj{
+     bottom: 0;
+    left: 0;
+    width: 150px;
+   
+}
+
+
+
+.piePagina{
+    text-align: center;
+    background-color:#111;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: smaller;
+    flex-wrap: wrap;
+}
+
+/* resposive */
+
+
+
+@media screen and (max-width:1192px)
+ {
+    /*caja menu*/
+    
+    .menu{
+        width: 100%;
+    }
+    .redes{
+        margin-left: 10%;
+        width: 20%;
+        padding-top: 0px;
+
+    }
+    .redes-item{
+        /* width: 10%; */
+        margin-right: 0px;
+        padding: 10px auto;
+    }
+    #logo-central{
+        display: none;
+    }
+    .contenedor{
+        flex-direction: column;
+    }
+   
+    .lista{
+        padding-right: 20px;
+    }
+    .caja1{
+        display: none;
+
+    }
+
+    /*caja dojo-kun*/
+
+    .contenedor-2{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 20px;
+        
+    }
+    .title2, .dojo-kun .parrafo{
+        text-align: center;
+        border-bottom: none;
+        
+
+    }
+
+    /*caja beneficios*/
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .beneficios img{
+        width: 500px;
+    }
+    .caja-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-2{
+        border-bottom: none;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .title-3{
+        border-bottom: none;
+    }
+   
+    
+
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  /* .logo{
+    padding-right: 0px;
+    font-size: 10px;
+  } */
+
+    .contenedor-nav{
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        background-color: #fff;
+        width: 260px;
+        height: auto;
+      
+        /* padding-top: 40px; */
+        z-index: 1;
+        transition: all 300ms;
+        box-shadow: inset 0 0 10px 00px #111;
+        border-radius: 20px;
+        
+    }
+    .icono-cerrar-desactivo{
+        display: block;
+        opacity: 1;
+    }
+    .navegacion{
+        background-color: #fff;
+        box-shadow: inset 0 0 10px 00px #111;
+        border-radius: 20px;
+
+    }
+    .menu{
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 70px;
+        background-color: #fff;
+        box-shadow: inset 0 0 10px 00px #111;
+        border-radius: 20px;
+
+
+    }
+  
+    .item-menu{
+        width: 99%;
+        height: 50px;
+        align-items: center;
+        line-height: 50px;
+        background-color: #fff;
+        box-shadow: inset 0 0 10px 00px #111;
+        border-radius: 20px;
+
+
+
+    }
+    .links-menu{
+        color:#757391;
+        
+    }
+    .links-menu:hover{
+        color:#e7650e;
+    }
+    .redes-item{
+        margin-left: 30px;
+        margin-top: 0;
+        padding-top: 0;
+        
+    }
+    .redes-item:hover{
+        color:#e7650e;
+    }
+    
+    #back-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0,0,0.5) ; 
+        display: none;
+
+    }
+    .redes{
+        margin: 0;
+        background-color: #fff;
+        margin-bottom: 15px;
+        margin-left: 35px;
+    }
+    #icono-menu{
+        position: fixed;
+        top:10px;
+        right: 20px;
+        width:50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #757391;
+        color: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 2;
+
+    }
+    #icono-menu:hover{
+        color:#e7650e;
+    }
+    .dojo-kun .parrafo, .title2{
+        width: 100%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .mensaje{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .articulo{
+        flex-direction: column ;
+        
+    }
+    .caja-beneficios1{
+        display: none;
+    }
+    .parrafo-beneficios, .title-2{
+        text-align: center;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .dojo-kun{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .caja-1 .parrafo-beneficios{
+        width: 100%;
+    }
+    .contenedor-2 .mensaje{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+      
+    }
+    .ventajas{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+        
+    .parrafo-beneficios{
+        width: 80%;
+    }
+
+    /*Parrafo graduaciones*/
+    .titulo-foto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-foto img{
+        margin-top: 30px;
+    }
+    .title-cinturones{
+        margin-top: 20px;
+        border-bottom: none;
+    }
+    /*galeria imagenes*/
+    .galeria{
+        margin-left: 190px;
+        border-bottom: none;
+    }
+    .item-galeria:nth-child(4){
+        grid-column: 2 / span 2;
+    }
+    .item-galeria:nth-child(6){
+        grid-column: 3 / span 2;
+    }
+    .item-galeria:nth-child(7){
+        grid-column: 2 / span 2;
+
+    }
+    .item-galeria:nth-child(8){
+        display: none;
+
+    }
+    .item-galeria:nth-child(9){
+        display: none;
+
+    }
+  
+}
+@media screen and (max-width:414px) {
+    
+    .ventajas{
+        text-align: left;
+    }
+    .title-3{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .parrafo-beneficios{
+        text-align: left;
+        margin-left: 0;
+    }
+    .lista-colores{
+        margin-left: 20px;
+        padding-right: 10px;
+    }
+    .galeria{
+        margin-left: 20px;
+    }
+    .galeria-imagenes{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        
+    }
+    .item-galeria{
+        clip-path: none;
+        box-sizing: border-box;
+        height: auto;
+        padding-bottom: 0px;
+    }
+    .item-galeria:nth-child(1){
+        height: 300px;
+        width: 99%;
+        
+       }
+    .item-galeria:nth-child(4){
+        height: 400px;
+        width: 99%;
+        
+       }
+       .item-galeria:nth-child(5){
+        height: 300px;
+        width: 99%;
+        
+       }
+    .piePagina{
+        height: auto;
+    }
+}
+@media screen and (max-width:375px) {
+    .cinturones-general{
+        display: flex;
+        padding-right: 15px;
+       
+    }
+    .title-cinturones{
+        margin-left: 50px;
+        margin-bottom: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .title-3, .title-cinturones2{
+        padding: 10px;
+        margin-left: 20px;
+        text-align: center;
+        
+    }
+    .articulo{
+        box-sizing: border-box;
+        width: 80%;
+        padding-right: 20px;
+    }
+ 
+}

@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: none;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.navegador-superior{
+    height: 60%;
+    width: 75%;
+    margin-left: 100px;
+    margin-right: 15px; 
+    background-color: rgb(231, 232, 232);
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:inset;
+}
+ul{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 50px;
+    line-height: 25px;
+}
+li{
+    margin-left: 10px;
+    margin-right: 20px;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: rgb(87, 102, 168)lue;
+
+}
+nav, img{
+    height: 100px;
+    
+    
+}
+#enlace{
+    color: rgb(87, 102, 168);
+    text-decoration: none;
+    text-align: center;
+}
+#enlace:hover{
+    color: rgb(103, 104, 104);
+}
+.medio{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(87, 102, 168);
+    display: flex;
+}
+.imagen{
+    height: 350px;
+    width: 130%;
+    background-color:none;
+}
+.imagen-2{
+    width: 100%;
+    height: 400px;
+    margin-left: 00px;
+    margin-left: 100px;
+}
+.info{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(8, 8, 76);
+    margin-right: 160px;
+}
+.info h1{
+    text-align: left;
+    color: blue;
+    background-color: rgb(8, 8, 76);   
+    padding: 20px 20px 20px 20px;
+}
+.info p{
+    color:white;
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+}
+#boton{
+    background-color: lightblue;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+#a-boton{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-secundario{
+    background-color: none;
+    height: auto;
+    width:100%;
+    padding-top: 0px;
+    padding-left: 95px;
+    padding-bottom: 10px;
+    display: flex   ;
+}
+.contenedor-tres,.contenedor-uno,.contenedor-dos  {
+    height: auto;
+    width: 300px;
+   margin-left: 30px;
+   margin-top: 0px;
+   background-color:white;
+   padding-top: 30px;
+
+}
+.contenedor-uno img, .contenedor-dos img, .contenedor-tres img {
+    height: 170px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.contenedor-uno h1{
+    text-align: center;
+    color: rgb(8, 8, 76);
+    font-family: sans-serif;
+}
+.contenedor-uno p{
+    color:brown;
+    padding-left: 10px;
+}
+.contenedor-uno button{
+    width: 100px;
+    border-radius: 10px;
+   background-color: rgb(87, 102, 168);
+    margin: 0 100px 10px 
+}
+.contenedor-uno button, a{
+    text-decoration: none;
+    color: rgb(8, 8, 76);
+
+}
+
+
+
+.contenedor-dos h1{
+    text-align: center;
+    color: rgb(8, 8, 76);
+    font-family: sans-serif;
+}
+.contenedor-dos p{
+    color:brown;
+    padding-left: 10px;
+}
+.contenedor-dos button{
+    width: 100px;
+    border-radius: 10px;
+    background-color:  rgb(87, 102, 168);
+    margin: 0 100px 10px 
+}
+.contenedor-dos button, a{
+    text-decoration: none;
+    color: rgb(8, 8, 76);
+}
+
+
+
+.contenedor-tres h1{
+    text-align: center;
+    color: rgb(8, 8, 76);
+    font-family: sans-serif;
+}
+.contenedor-tres p{
+    color:brown;
+    padding-left: 10px;
+}
+.contenedor-tres button{
+    width: 100px;
+    border-radius: 10px;
+    background-color:  rgb(87, 102, 168);
+    margin: 0 100px 10px 
+}
+
+button:hover    {
+    background-color: lightblue;
+}
+.contenedor-tres button, a{
+    text-decoration: none;
+    color: rgb(8, 8, 76);
+}
+.contenedor-terciario{
+    background-color:  rgb(87, 102, 168);
+    height: auto;
+    width:100%;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: flex  ;
+    margin-top: 50px;
+}
+.contenedor-1{
+    height: 200px;
+    width: 250px;
+   margin-left: 70px;
+   margin-top: 020px;
+   background-color:none;
+   padding-top: 30px;
+
+}
+.contenedor-1 img{
+    height: 170px;
+    width: 100%;
+    border-radius: 20%;
+    
+}
+.contenedor-1 h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.contenedor-1 p{
+    color:white;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.contenedor-1 button{
+    width: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0 70px 10px;
+    border:none
+}
+
+.contenedor-1 button:hover{
+    background-color: lightblue;
+}
+
+
+
+
+.link-cont-uno{
+    text-decoration: none;
+    color: #fff;
+
+}
+.contenedor-2 button, a{
+    text-decoration: none;
+    color: rgb(87, 102, 168);
+
+}
+
+
+.contenedor-2{
+    height: 250px;
+    width: 250px;
+   margin-left: 30px;
+   margin-top: 20px;
+   background-color:none;
+   padding-top: 20px;
+
+}
+
+.contenedor-2 h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.contenedor-2 p{
+    color:white;
+    padding-left: 10px;
+}
+.contenedor-2 #p2{
+    color:black;
+    padding-left: 10px;
+}
+#facebook{
+    background-color:rgb(87, 102, 168);
+    margin-top: 0;
+    border: none;
+    height: 30px;
+}
+
+.contenedor-3{
+    height: 250px;
+    width: 250px;
+   margin-left: 30px;
+   background-color:none;
+   padding-top: 50px;
+
+}
+
+    
+
+.contenedor-3 h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.contenedor-3 p{
+    color:white;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.contenedor-3 button{
+    width: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0 50px 10px;
+    border:none 
+}
+.contenedor-3 button:hover{ 
+    background-color: lightblue;
+}
+
+.imagen-inferior img{
+    height: 180px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+#logo-diseñador{ 
+    margin-left: 100px;
+    height: 50px;
+}
+ul,li{
+    background-color: none;
+    height: auto;
+}
+#enlace-inferior{
+    color:grey;
+    text-decoration: none;
+    font-size: smaller;
+}
+#enlace-inferior:hover{
+    color: rgb(38, 56, 136);
+    transition: 0,75s ;
+}
+

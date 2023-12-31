@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: grey;
+    height: 200px;
+    width: 100%;
+}
+#contenedor{
+    display: flex;
+
+}
+.barra-superior{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(80, 57, 57);
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+}
+.barra-superior img{
+    height: 30px;
+    width: 350px;
+
+}
+.menu-desplegable-superior{
+    margin: 0;
+    height: 80px;
+    width:35%;
+    background-color: rgb(80, 57, 57);
+   
+
+    
+    
+}
+select{
+    background-color: bisque;
+    margin-left: 100px;
+     color: rgb(80, 57, 57);
+     border-radius: 10px;
+     height: 25px;
+
+}
+#enviar{
+    height: 25px;
+    width: 50px;
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px  ;
+}
+#lista-superior-derecha{
+    display: flex;
+    list-style: none;
+    background-color: rgb(80, 57, 57);
+    height: 90px;
+}
+#lista-superior-derecha a:hover{
+    color: #fff;
+}
+a, li{
+    text-decoration: none;
+    color: bisque;
+    margin-left: 10px ;
+    margin-top: 25px;
+}
+.imagen-central{
+    height: 100px;
+    background-color: rgb(80, 57, 57);
+}
+.imagen-central img{
+    border-radius: 15px;
+}
+#contenedor-dos{
+    background-color: rgb(80, 57, 57);
+    height:95px;
+    width: 50%;
+    padding-top: 35px;
+}
+.reservar{
+    
+    width: 100%;
+    background-color:brown;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#imagen-habitacion{
+    margin-left: 150px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#boton-reservar{
+    height: 30px;
+    width: 100px; 
+    background-color: rgb(80, 57, 57);
+    color:white;
+    margin-left: 50px;
+    border: none;
+
+}
+.centro{
+    
+    width: 400px;
+    background-color: none;
+    margin-left: 20px;
+
+}
+.centro h1{
+    text-align: center;
+    color: rgb(244, 201, 201);
+    margin-bottom: 20px;
+}
+.fecha{
+    height: 250px;
+    width: 200px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+}
+.contendor-texto p{  
+    margin-top: 10px;
+    text-align: start  ;
+    color: beige;
+    margin-top: 70px;
+}
+.centro img{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.contendor-texto{
+    display: flex;
+    margin-left: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#imagen-habitacion{
+    height: 400px;
+    width: 70%;
+    margin-left: 16 0px;
+
+}
+.barra-central{
+   
+    width: 100%;
+    background-color:rgb(80, 57, 57);
+    display: flex;
+}
+.uno{
+    width: 25%;
+    background-color: none;
+    padding-top: 70px; 
+    color: antiquewhite;
+    font-size: small;
+    text-align: center;
+    padding: 5px;
+}
+.dos, .tres, .cuatro{
+   padding: 10px;
+    width: 25%;
+    background-color:none;
+    padding-top: 72px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    
+}
+
+
+
+.tres h1, .cuatro h1, .dos h1{
+    margin-bottom: 30px;
+}
+
+.uno h1{
+    margin-top: 50px;
+}
+#imagen-5{
+    border-radius: 20px;
+}
+.fecha-ingreso{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+}

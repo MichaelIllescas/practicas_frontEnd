@@ -1,0 +1,10 @@
+p{
+    font-size: 3rem;
+    color: aqua;
+    background-color: #000;
+    width: 70%;
+    height: 200px;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 200px;
+}

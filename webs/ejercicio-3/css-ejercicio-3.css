@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.encabezado{
+    width: 100%;
+    background-color: whitesmoke;
+    height: auto;
+
+}
+.listado{
+    background-color: whitesmoke;
+    width: 90vw;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+    color: grey;
+ 
+}
+.izquierda{
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
+    padding: 0px;
+    text-align: left;
+    margin-top: 2px;
+    list-style-type: none;
+}
+input{
+    background-color: grey;
+    border: none;
+    border-radius: 10%;
+    margin-left: 5px;
+}    
+
+
+
+.listado-derecha{
+    display: flex;
+    justify-content: space-between;
+    margin:5px 5px 5px 5px
+    
+    
+}
+.lista .centro{
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
+    padding: 0px;
+    text-align: left;
+    margin-top: 2px;
+    list-style-type: none;
+    margin:5px 5px 5px 5px
+
+}
+.logo-idiomas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:5px 5px 5px 5px
+}
+.logo{
+    color:grey;
+    font-size: 50px;
+}
+.ingles, .español{
+    background-color: aqua;
+    border-radius: 10%;
+    height: 25px;
+    width: 70px;
+    margin: 1px 1px 1px 1px;
+    border: none;
+}
+
+
+.cuerpo{
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    margin-left: 0;
+    margin:auto;
+    padding: 30px;
+    display: flex;
+}
+ul li {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+
+}
+ul.lista-imagenes{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+ul.lista-imagenes li{
+    position: absolute;
+    left: 150px;
+    top:0px;
+    opacity:  0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition:opacity 0.5s;
+}
+ul.lista-imagenes li img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+ul.lista-imagenes li:first-child {
+    opacity:0z;
+
+}
+ul.lista-imagenes li:first-child{
+    opacity: 0;
+
+}
+ul.lista-imagenes li:target {
+    opacity:1
+}
+
+.menu-slider li{
+    float: center;
+    margin: 30px;
+    
+    
+}
+.menu-slider li a{
+    margin:10px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: grey;
+    padding: 5px 5px 5px 5px;
+    padding: 10px;
+    margin-left: 0;
+    text-align: left;
+    width: 45px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 100%;
+    
+}

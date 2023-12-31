@@ -1,0 +1,2 @@
+import "./cargarcategorias";
+import "./eventoCategorias";

@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient( rgba(1,2,5, 0.99),rgba(84, 110, 110, 0.4)), 
+    url(./imagen-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    display: flex
+}
+
+#logo{
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.navmenu{
+    display: flex;  
+    margin-top: 20px;
+    margin-left: 50px;   
+}
+ul, li{
+    display: flex;
+    margin-left: 100px;
+    margin-top:20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+    transition: 0.5s;
+}
+.texto-superior{
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+    text-align: center center;
+    font-size: larger;
+    color: white;
+    margin-left: 50px;
+}
+button{
+    height: 25px;
+    width: 80px;
+    background-color:darkblue;
+    color: blueviolet;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.noticias{
+    display: flex;
+}
+.primer{
+    height: 400px;
+    width: 50%;
+    background-color: none;
+    padding-top: 30px;
+    padding-left: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: inset 0 10px 15px #111;
+    
+        
+}
+.primer img{
+    border-radius: 15px;
+    box-shadow: inset 0 10px 10px #111;
+}
+.segundo{
+    height: 329px;
+    width: 50%;
+    background-color:none;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: inset 0 10px 15px #111;
+    
+}
+.cortes-peinados{
+    height: 550px;
+    width: 100%;
+    background-image: linear-gradient( rgba(1,2,5, 0.99),rgba(84, 110, 110, 0.4)), 
+    url(./imagen-4.jpg);
+    box-shadow: 0 10px 10px #111;
+
+   
+}
+.cortes-peinados h1{
+     color: white;
+     text-align: center;
+     padding-top: 20px;
+     margin-bottom: 0;
+     
+     
+
+}
+.contenedor-secundario{
+    margin-left: 100px;
+    height: 500px;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.contenedor-uno img, .contenedor-dos img, .contenedor-tres img{
+    height: 300px;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow:  0 10px 15px #111;
+    
+}
+
+
+.contenedor-uno button, .contenedor-dos button, .contenedor-tres button{
+    border-radius: 10px;
+    background-color: rgb(193, 188, 188);
+    margin: 0 40%   
+}
+
+.contenedor-dos p, .contenedor-tres p, .contenedor-uno p{
+    color:grey;
+    padding-left: 10px;
+    text-align: center;
+ }
+
+ .contenedor-tres, .contenedor-dos, .contenedor-uno{
+    height: 90%;
+    width: 300px;
+   margin-left: 30px;
+   margin-top: 20px;
+   background-color:rgb(245, 239, 239);
+   border-radius: 10px;
+ 
+ }
+ 
+ .contenedor-tres h1, .contenedor-dos h1, .contenedor-uno h1{
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+ }
+.reservas{
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.reservacion{
+    
+    height: auto;
+    width: 100%;
+    display: block;
+   
+}
+.imagen{
+    margin-top: 3%;
+    height: 50%;
+    width: 25%;
+    margin-left: 10%;
+    border-radius: 15px;
+    box-shadow:  0 10px 15px #111;
+}
+.reservacion h1{
+    color: black;
+    font-size: 1.5rem;  
+    text-align: center;
+    padding-top: 6%;
+}
+
+input{
+    background-color: beige; border:none;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow:  0 5px 15px #111;
+   
+}
+label{
+    font-size: 1em;
+    margin-left: 10px;
+}
+#boton-reservar{
+    background-color: grey;
+    color: #fff;
+    padding: 1px;
+    width: 15%;
+    line-height: 5px;
+    height: 30px;
+}
+#boton-reservar:hover{
+    color:blue;
+    transition: 0.75s;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+}
+.direccion{
+    width: 33%;
+    height: 100px;
+    background-color:grey;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.telefono{
+    width: 33%;
+    height: 90px;
+    line-height: 90px;
+    background-color: lightgray;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    text-align:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.redes-sociales{
+    width: 35%;
+    height: 100px;
+    line-height: 100px;
+    background-color:gray;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    text-align:center;
+    justify-content: space-between;
+
+}
+

@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("IGDHotlikeEmoji.react",["PolarisDirectStrings","PolarisIGCoreHeartFilledIcon","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(){return h.jsx(c("PolarisIGCoreHeartFilledIcon"),{alt:d("PolarisDirectStrings").LIKE_BUTTON_ALT_TEXT,color:"ig-badge",size:44})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);

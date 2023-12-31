@@ -1,0 +1,210 @@
+*{margin: 0; font-family: sans-serif;}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: none;
+    border-bottom: double;
+}
+.logo{
+    background-color: renoned;
+}
+#logo{
+    height: 60px;
+    margin-left: 100px;
+
+}
+#boton-1{
+    background-color: lightgray;
+    border: none;
+    color:grey;
+    border-radius: 10%;
+    height: 20px;
+    margin-left: 125px;
+    width:60px
+}
+#boton-2{
+    background-color: lightgrey;
+    border: none;
+    color:rgb(164, 9, 9);
+    border-radius: 10%;
+    height: 20px;
+}
+.nav{
+    display: block;
+}
+.barra-superior{
+    display: flex;
+    float: left;
+    height: 30px;
+    width: 800px;
+    background-color: none;
+    justify-content:end;
+}
+.barra-superior ul{
+    display: flex;
+    margin-right: 90px;
+    margin-left: 90px;
+
+}
+
+
+.nav-menu-item{
+    margin-right: 30px;
+    margin-left: 30px;
+    list-style: none;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.a1:hover, #redes:hover, .a2:hover{
+    color:blue
+
+
+}
+.a1{
+    text-decoration: none;
+    color: gray;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    width: 1000px;
+    background-color: none;
+}
+.barra-inferior{
+    display:flex;
+    font-size: 12px;
+    height: 40px;
+    width: 1000px;
+    background-color: none;
+    text-align: center;
+    list-style: none;
+}
+.a2{
+    text-decoration: none;
+    color:grey;
+    font-size: 15px;
+
+}
+#redes{
+  height: 300px;
+  margin-right: 40px;
+  margin-top: 5px;
+  width: 80px;
+  color: grey;  
+}
+
+.fondo{
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+}
+#playa{
+    height: 300px;
+    width: 100%;
+}
+.galeria{
+    margin-top: 30px;
+    display: flex;
+    border-radius: 10px;
+    width: 80%;
+    background-color: white;
+    margin-left: 150px;
+    display: flex;
+}
+.listado-elementos{
+    border-radius: 10px;
+    width: 100%;
+    background-color: lightcyan;
+    display: flex;
+    
+}
+#imagen-mesas{
+    width:800px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+.listado{
+    margin-top: 18px;
+    list-style: none;
+    border-bottom: grey double;
+    
+}
+.a3{
+    text-decoration: none;
+    color: grey;
+    border-radius: 10px;
+}
+.general-reservaciones{
+    display: flex;
+    border-radius: 10px;
+    width: 80%;
+    background-color: white;
+    margin-left: 150px;
+    display: flex;
+}
+
+.reservaciones{
+    border-radius: 10px;
+    width: 40%;
+    background-color: lightcyan;
+    display: block;
+    border-radius: 10px;
+
+}
+.reservaciones h1, p{
+    text-align: center;
+    margin-top: 30px;
+    color: grey;
+    border-radius: 10px;
+}
+SELECT{
+    height: 20px;
+    width: 150px;
+    background-color: lightgray;
+    margin-top: 30px;
+    margin-left: 55%;
+    color: grey;
+    border:none;
+    border-radius: 5px;
+}
+input, select{
+    margin-top: 30px;
+    color: grey;
+    background-color: lightgrey;
+    border: none;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+label{
+    margin-left: 13%;
+    font-size: 1em;
+    
+}
+#boton-reservar{
+    border-radius: 10px;
+    background-color: rgb(109, 45, 45);
+    color: white;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#a4{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+.textos{
+    background-color: none;
+    width: 70%;
+    height: auto;
+}
+.logo-2{
+    width: 100%;
+    border-bottom: grey double;
+}

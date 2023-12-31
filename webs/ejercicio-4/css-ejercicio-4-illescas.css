@@ -1,0 +1,76 @@
+#contact-form { background-color:#0da949;
+     width:465px;
+      padding:20px;
+    margin: 50px auto;
+     border: 6px solid #8FB5C1;
+    -moz-border-radius:15px;
+     -webkit-border-radius:15px;
+    border-radius:15px; 
+    position:relative;
+}
+h1, label {
+    font-size:smallerS;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+
+#contact-form h1 {
+     font-size:42px;
+}
+.nom{
+    color: #8FB5C1;
+}
+   
+#contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
+    font-size:15px;
+     margin-bottom:2px;
+     height: 5vh;
+     
+}
+#contact-form input, #contact-form select, #contact-form textarea
+{
+    width:450px; 
+    height: 1px solid #CEE1E8;
+    margin-bottom:20px; 
+    padding:4px;
+    
+}
+#contact-form textarea:focus { 
+    border: 1px solid #AFCDD8; 
+    background-color: #EBF2F4;
+    
+}
+    
+#contact-form label {
+     display:block;
+     color:white
+}
+#contact-form .required { 
+    -weight:bold; 
+    color:white
+}
+#contact-form #submit-button { 
+    width: 200px;
+    background-color:#333;
+    color:#FFF;
+    border:none; 
+    display:block;
+    float:left;
+    margin-bottom:0px;
+     margin-right:6px; 
+     background-color:#8FB5C1;
+    border-radius:8px;
+}
+  
+
+#contact-form #submit-button:active {
+    position:left; top:1px; } input:required, textarea:required { -moz-box-shadow:none;
+        -webkit-box-shadow:none; 
+        -o-box-shadow:none;
+        box-shadow:none;
+}
+.mje input{
+    height:100px;
+}

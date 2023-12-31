@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:border-box
+}
+body{
+    padding: 20px 10px 10px 10px;
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgba(192, 240, 240, 0.75), rgba(1,2,5, 0.75)), 
+    url(./imagen-ejercicio-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    
+    
+}
+.menuboton{
+    display: none;}
+li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 0%;
+    display: block;    
+    color: white;
+    padding: 9px 5px 9px 25px;
+    border-right: 1PX solid color:ffaa00;
+    box-sizing:border-box;
+    
+ 
+     
+}
+.navmenu{
+    background-color:rgb(206, 210, 213);
+    width: 100%;
+    height: 45px;
+    
+    
+}
+
+
+
+.textocotizador {
+    margin-left:1%;
+    margin-top:1%;
+    background-color: rgb(206, 210, 213);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:25%;
+    height: 19%;
+    padding: 1% 1% 1% 2%;
+    float: left;
+    margin-bottom: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+
+}
+
+
+.textouno{
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(206, 210, 213);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:17%;
+    height: 17%;
+    margin-right: 1%;
+    margin-left:1%;
+    float: left;
+    margin-top: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+    
+}
+.textodos{
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(206, 210, 213);
+    margin-right: 1%;
+    margin-left:1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:17%;
+    height: 17%;
+    float: left;
+    margin-top: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+}
+.textotres{
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(206, 210, 213);
+    margin-right: 1%;
+    margin-left: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:17%;
+    height: 17%;
+    float: left;
+    margin-top: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+}
+.textocuatro{
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(206, 210, 213);
+    margin-right: 1%;
+    margin-left: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:17%;
+    height: 17%;
+    float: left;
+    margin-top: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+}
+header{
+    float: left;
+}
+footer{
+    display:block
+    font-size: x-small;
+    text-align: right ;
+    color: white;
+    rgb(206, 210, 213);
+    margin-right: 3%;
+    margin-top: 2%;
+    margin bottom: 1%;
+    margin :left 1%;
+    box-sizing:border-box
+
+}
+#COTIZA{
+     
+    margin: 5% 100% 2% 30%; 
+    width:30%;
+    height: 35px;
+    background-color:rgb(36, 36, 127);
+    border: rgb(186, 186, 188);
+    color: white;
+    box-sizing:border-box
+    
+}
+
+h1{box-sizing:border-box}
+
+@media screen and (max-width:800px){
+  
+.menu{
+    display:none
+}
+.totalbody{
+    background-color: none;
+}    
+
+
+
+.navmenu{
+    
+
+}
+body{
+    background-color: none;
+    
+    
+}
+.textocotizador {
+    margin-left:1%;
+    margin-top:1%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:100%;
+    height: 50%;
+    padding: 1% 1% 1% 2%;
+    float: left;
+    margin-bottom: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+}
+.menu{
+    flex-direction: column;
+    margin-right: 20px;
+    position:absolute;
+    left: 0;
+    top:60px;
+    width:100%;
+    padding:20px 0
+}
+.textouno {
+    margin-left:1%;
+    margin-top:1%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:100%;
+    height: 50%;
+    padding: 1% 1% 1% 2%;
+    float: left;
+    margin-bottom: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+
+}
+.textodos {
+    margin-left:1%;
+    margin-top:1%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:100%;
+    height: 50%;
+    padding: 1% 1% 1% 2%;
+    float: left;
+    margin-bottom: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box
+
+   }
+.textotres {
+    margin-left:1%;
+    margin-top:1%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    width:100%;
+    height: 50%;
+    padding: 1% 1% 1% 2%;
+    float: left;
+    margin-bottom: 1%;
+    margin bottom: 1%;
+    box-sizing:border-box}
+.textocuatro {
+        margin-left:1%;
+        margin-top:1%;
+    
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: small;
+        width:100%;
+        height: 50%;
+        padding: 1% 1% 1% 2%;
+        float: left;
+        margin-bottom: 1%;
+        margin bottom: 1%;
+        box-sizing:border-box}
+}
+
+@@media screen and (max-width:650px){
+
+.menuboton {
+display:inline
+}        
+    
+
+
+}
+
